@@ -16,4 +16,4 @@ class Character:
         return self.hp > 0
 
     def __str__(self):
-        return f"{self.name}: {self.hp:.2f} HP"
+        return f"{self.name}: {self.hp:.2f} HP" 
